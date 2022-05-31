@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light back">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">Shopping</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light">About</a>
+                    </li>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                    <li class="nav-item cart d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4 d-flex justify-content-between ">
+        <div class="s">
+            <select id="slct" style="display:none;">
+                <option value="normal">normal</option>
+                <option value="high">high to low</option>
+                <option value="low">low to high</option>
+                <option value="date">sort with date</option>
+            </select>
+
+        </div>
+        <div class="oldpage bck">
+            <h3>Back</h3>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="newElm bck">
+
+            </div>
+        </div>
+        <!-----start food----->
+        <div class="Products food mt-5">
+            <div class="container">
+                <div class="row pro mb-3">
+                    <div class="col-lg-10">
+                        <h3>food</h3>
+                    </div>
+                    <div class="col-lg-2 all">
+                        <h3 class="food">All Products</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mb-3 pr newEL">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/th.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">food 1</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 1</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-05-06</span>
+                                </div>
+                                <h3 class="mb-3 price">22</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/th 2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">food 2</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 2</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-08-23</span>
+                                </div>
+                                <h3 class="mb-3 price">15</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/th 4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">food 3</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 3</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-10-04</span>
+                                </div>
+                                <h3 class="mb-3 price">9</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/th6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">food 4</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 4</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-04-25</span>
+                                </div>
+                                <h3 class="mb-3 price">40</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----end food----->
+        <!-----start clothes---->
+        <div class="Products clothes mt-5">
+            <div class="container">
+                <div class="row pro mb-3">
+                    <div class="col-lg-10">
+                        <h3>clothes</h3>
+                    </div>
+                    <div class="col-lg-2 all">
+                        <h3 class="clothes">All Products</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pr newEL">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/insta-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">jacket 1</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 1</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-05-06</span>
+                                </div>
+                                <h3 class="mb-3 price">20</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/insta-2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">jacket 2</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 2</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-08-23</span>
+                                </div>
+                                <h3 class="mb-3 price">15</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/insta-3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">jacket 3</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 3</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-10-04</span>
+                                </div>
+                                <h3 class="mb-3 price">25</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/insta-4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">jacket 4</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 4</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-10-04</span>
+                                </div>
+                                <h3 class="mb-3 price">10</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----end clothes----->
+        <!-----start phone---->
+        <div class="Products Phones mt-5">
+            <div class="container phone">
+                <div class="row pro mb-3">
+                    <div class="col-lg-10">
+                        <h3>Phones</h3>
+                    </div>
+                    <div class="col-lg-2 all">
+                        <h3 class="Phone">All Products</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mb-4 pr newEL">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/iphone1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">iphone 10</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 1</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-05-06</span>
+                                </div>
+                                <h3 class="mb-3 price">520</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/iphone2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">iphone 12 max</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 2</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-08-23</span>
+                                </div>
+                                <h3 class="mb-3 price">1115</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/iphone3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">iphone 12 pro max</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 3</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-10-04</span>
+                                </div>
+                                <h3 class="mb-3 price">1200</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <img src="img/iphone4.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title title">iphone 13 pro</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 4</p>
+                                <div class="date mb-2">
+                                    <i class="fa-solid fa-calendar me-1"></i><span>2021-10-04</span>
+                                </div>
+                                <h3 class="mb-3 price">860</h3>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----end phone---->
+        <button class="moreProduct bt btn btn-primary mt-5 d-flex justify-content-center m-auto">more Products</button>
+        <button class="less bt btn btn-primary mt-5 d-flex justify-content-center m-auto">less Products</button>
+
+    </main>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

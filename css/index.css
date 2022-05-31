@@ -1,0 +1,78 @@
+.back {
+    background-color: #ff7a38;
+    color: #fff !important;
+}
+
+.cart {
+    width: 50px;
+    font-size: 23px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cart span {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    right: 0px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.food .pro div:last-child h3,
+.clothes .pro div:last-child h3,
+.Phones .pro div:last-child h3 {
+    cursor: pointer;
+}
+
+
+.bck {
+    display: none !important;
+}
+
+.oldpage {
+    cursor: pointer;
+}
+
+.less {
+    display: none !important;
+}
+
+.showOldPage {
+    display: flex !important;
+}
+
+.Phones {
+    /* display: none; */
+}
+
+.hid {
+    display: none !important;
+}
+
+.notsh {
+    display: none !important;
+}
+
+/*--page shopping---*/
+
+.moin,
+.plus {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.remove {
+    cursor: pointer;
+}
